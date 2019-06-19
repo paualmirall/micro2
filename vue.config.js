@@ -4,12 +4,7 @@ module.exports = {
       : '/',
     chainWebpack: config => {
       config.externals({
-        'lodash': {
-          commonjs: 'lodash',
-          commonjs2: 'lodash',
-          amd: 'lodash',
-          root: '_',
-        },
+        lodash: '{}',
       })
     }
   }
