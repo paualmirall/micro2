@@ -1,10 +1,12 @@
 <template>
   <div class="hello">
-    THIS IS MICROFRONTEND NUMBER 2
+    {{ _.camelCase('THIS IS MICROFRONTEND NUMBER 2') }}
   </div>
 </template>
 
 <script>
+import _ from 'lodash'
+
 export default {
   name: 'HelloWorld',
   props: {
