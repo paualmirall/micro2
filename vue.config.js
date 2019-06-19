@@ -5,7 +5,6 @@ module.exports = {
     chainWebpack: config => {
       config.externals({
         lodash: 'lodash',
-        vue: 'vue',
         'core-js': 'core-js'
       })
     }
