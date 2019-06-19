@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    {{ _.camelCase('THIS IS MICROFRONTEND NUMBER 2') }}
+    {{ text }}
   </div>
 </template>
 
@@ -11,6 +11,11 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  computed: {
+    text() {
+      return _.camelCase('THIS IS MICROFRONTEND NUMBER 2');
+    }
   }
 }
 </script>
