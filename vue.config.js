@@ -10,6 +10,8 @@ module.exports = {
           amd: 'lodash',
           root: '_',
         },
+        vue: "Vue",
+        "core-js": "core.js",
       })
     }
   }
