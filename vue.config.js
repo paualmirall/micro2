@@ -1,3 +1,6 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const WebpackCdnPlugin = require('webpack-cdn-plugin');
+
 module.exports = {
     publicPath: process.env.NODE_ENV === 'production'
       ? 'https://paualmirallmicro2.netlify.com/'
