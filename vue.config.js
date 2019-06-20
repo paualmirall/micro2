@@ -10,6 +10,8 @@ module.exports = {
           modules: {
             'vue': [
               { name: 'vue', var: 'Vue', path: 'dist/vue.runtime.min.js' },
+            ],
+            'lodash': [
               { name: 'lodash', var: '_', path: 'lodash.min.js' },
             ]
           },
