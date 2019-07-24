@@ -6,6 +6,7 @@
 
 <script>
 import _ from 'lodash'
+require('iframe-resizer/js/iframeResizer.contentWindow.min.js');
 
 export default {
   name: 'HelloWorld',
